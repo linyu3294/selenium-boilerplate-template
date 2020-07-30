@@ -1,3 +1,7 @@
+import org.openqa.selenium.WebDriver;
+
+import util.WebDriverFactory;
+
 public class Main {
 
    public static void main (String args[]) {
@@ -32,5 +36,7 @@ public class Main {
             i++;
          }
       }
+      WebDriver driver = WebDriverFactory.make("chrome");
+      driver.get("https://www.google.com");
    }
 }
