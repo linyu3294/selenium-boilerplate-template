@@ -7,8 +7,8 @@ public class Main {
       int speed = 1;
 
 //      IModel model;
-//      IView view;
-//      IController controller;
+////      IView view;
+////      IController controller;
       Appendable out = new StringBuffer();
 
       String parsedArgs;

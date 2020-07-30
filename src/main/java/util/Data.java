@@ -17,7 +17,7 @@ import java.util.HashMap;
 /**
  * This is a Class for reading/writing data to/from excel.
  */
-public class DataCRUD {
+public class Data {
   private File file;
   private InputStream inStream;
   private OutputStream outStream;
@@ -33,7 +33,7 @@ public class DataCRUD {
    * @param filePath - The Path of the file include extension.
    * @param tabName  - name of the sheet/tab in the excel file.
    */
-  public DataCRUD(String filePath, String tabName) {
+  public Data (String filePath, String tabName) {
     this.filePath = filePath;
     this.tabName = tabName;
   }
