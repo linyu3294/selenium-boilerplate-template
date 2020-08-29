@@ -38,5 +38,6 @@ public class Main {
       }
       WebDriver driver = WebDriverFactory.make("chrome");
       driver.get("https://www.google.com");
+      
    }
 }

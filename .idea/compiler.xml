@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="new-project-boilerplate-template" />
+        <module name="selenium-boilerplate-template" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
