@@ -9,6 +9,8 @@
         <module name="selenium-boilerplate-template" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel>
+      <module name="selenium-boilerplate-template" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
